@@ -1,0 +1,23 @@
+算法比较: TCP Reno vs CUBIC
+比较指标数: 4
+TCP Reno 表现更好的指标数: 3
+CUBIC 表现更好的指标数: 1
+平局指标数: 0
+
+THROUGHPUT:
+  TCP Reno: 1.1866
+  CUBIC: 0.4287
+  差异: -0.7579 (-63.9%)
+  更好的算法: TCP Reno
+
+LOSS_RATE:
+  TCP Reno: 0.1000
+  CUBIC: 0.1000
+  差异: +0.0000 (+0.0%)
+  更好的算法: TCP Reno
+
+CWND:
+  TCP Reno: 4.9975
+  CUBIC: 1.8099
+  差异: -3.1876 (-63.8%)
+  更好的算法: TCP Reno
